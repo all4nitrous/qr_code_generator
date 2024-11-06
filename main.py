@@ -11,6 +11,8 @@ qr = qrcode.QRCode(
     box_size=10,
     border=4,
 )
+
+# Add data to the QR code
 qr.add_data(url)
 qr.make(fit=True)
 
